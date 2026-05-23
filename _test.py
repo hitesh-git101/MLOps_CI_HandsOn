@@ -29,5 +29,5 @@ def test_fifth():
 
 # Test for invalid input
 def test_invalid_input():
-    with pytest.raises("TypeError"):
+    with pytest.raises(TypeError):
         square("string")
